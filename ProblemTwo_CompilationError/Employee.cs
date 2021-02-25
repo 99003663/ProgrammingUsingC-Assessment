@@ -21,6 +21,10 @@ namespace ProblemTwo_CompilationError
         }
         public Employee(int eID,string eName,int eLevel, DateTime eDoJ)
         {
+            this.EmpID=eId;
+            this.EmpName=eName;
+            this.EmpLevel=eLvel;
+            this.DateOfJoining=eDoJ;
 
         }
 
